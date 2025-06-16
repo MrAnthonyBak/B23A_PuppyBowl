@@ -1,0 +1,74 @@
+h1 {
+    color: white;
+    margin-bottom: 60px;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: rgb(27, 135, 0);
+}
+
+
+#puppyContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 5px;
+}
+
+
+#puppyContainer div {
+    border: 2px solid #04ff00;
+    border-radius: 15px;
+    background-color: white;
+    padding: 5px;
+    width: 150px;
+}
+
+
+form {
+    margin-top: 15px;
+    background-color: white;
+    padding: 20px;
+    display: inline-block;
+    border-radius: 15px;
+}
+
+
+form input {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 1px solid #c3c3c3;
+}
+
+
+form button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #005d0b;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+#singlePuppyDetails {
+    background-color: #fefefe;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 15px auto;
+    width: 500px;
+    text-align: center;
+}
+
+
+#singlePuppyDetails img {
+    border-radius: 15px;
+    width: 450px;
+    margin-top: 10px;
+}
+
